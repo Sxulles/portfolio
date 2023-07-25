@@ -1,0 +1,31 @@
+.about-me-bg {
+    transform: rotate(180deg);
+    opacity: 0.5;
+}
+
+.lead {
+    font-family: 'Space Grotesk', sans-serif;
+}
+  
+@media (max-width: 767.98px) {
+    .col1-as-bg {
+      position: relative;
+    }
+    .about-me-section .about-me-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .about-me-section {
+      padding-top: 4em;
+    }
+    .about-me-section .introduction-text {
+      position: relative;
+    }
+    .lead {
+      font-size:medium;
+    }
+  }

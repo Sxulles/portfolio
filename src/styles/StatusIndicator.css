@@ -1,0 +1,22 @@
+.cover-container {
+    z-index: 10 !important;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+.spinner-img {
+    max-width: 40%;
+    max-height: 40%
+}
+
+.success-icon {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.loading-bg {
+    min-width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}

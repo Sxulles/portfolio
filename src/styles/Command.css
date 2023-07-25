@@ -1,0 +1,8 @@
+.command {
+    text-align: center;
+    font: message-box;
+    background-color: #14141d;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0.5em;
+}

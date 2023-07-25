@@ -1,0 +1,44 @@
+header {
+    border-bottom: 3px solid white;
+    z-index: 1;
+    position: relative;
+}
+
+.logo {
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+ul.nav li {
+    transition: 0.5s;
+    background: none;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+ul.nav li:hover {
+    transition: all 0.7s;
+    background: linear-gradient(to right,
+            hsla(268, 100%, 59%, 0.63),
+            hsla(0, 100%, 59%, 0.63));
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+.dropdown-toggle {
+    outline: 0;
+}
+
+.nav-bar {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+.bi {
+    vertical-align: -.125em;
+}

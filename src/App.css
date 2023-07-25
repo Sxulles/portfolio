@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Space+Grotesk:wght@300&family=Unica+One&display=swap');
+@import url('./styles/AboutMeSection.css');
+@import url('./styles/ChatSection.css');
+@import url('./styles/ChatWindow.css');
+@import url('./styles/Command.css');
+@import url('./styles/CommandBox.css');
+@import url('./styles/CommandPlaceholder.css');
+@import url('./styles/ContactSection.css');
+@import url('./styles/Footer.css');
+@import url('./styles/Hero.css');
+@import url('./styles/Message.css');
+@import url('./styles/Navbar.css');
+@import url('./styles/StatusIndicator.css');
+
+body {
+  color: white;
+  font-family: 'Unica One', cursive !important;
+  /* img size is 50x50 */
+  background-color: black;
+  background: url("./assets/img/square.png") repeat 0 0;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-dark {
+  background-color: black !important;
+}

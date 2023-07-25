@@ -1,0 +1,30 @@
+.chat-window {
+    text-align: left;
+    border: 1px solid #cccccc86;
+    border-radius: 15px;
+    padding: 10px;
+    flex: 1;
+    align-self: stretch;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #050508;
+    scroll-behavior: smooth;
+}
+
+.chat-window::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.chat-window::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+
+.chat-window::-webkit-scrollbar-thumb {
+    border: 3px solid #050508 !important;
+    border-radius: 10px;
+    background: linear-gradient(to top,
+            hsl(268, 100%, 59%),
+            hsl(0, 100%, 59%));
+}

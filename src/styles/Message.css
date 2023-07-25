@@ -1,0 +1,24 @@
+.user {
+    background-color: #1e1e4d !important;
+}
+
+.message-box {
+    transition: all 0.5s;
+    font: message-box;
+    background-color: #14141d;
+    border-radius: 15px;
+    display: inline;
+    max-width: 50vw;
+    word-wrap: break-word;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.151);
+}
+
+.chat-bot-logo {
+    padding: 3px;
+    border-radius: 50%;
+    background: linear-gradient(to right,
+            hsla(268, 100%, 59%, 0.678),
+            hsla(0, 100%, 59%, 0.849));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.151);
+}
