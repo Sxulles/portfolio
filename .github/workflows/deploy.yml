@@ -24,6 +24,12 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+            VITE_ABSTRACT_API_KEY: ${{ secrets.VITE_ABSTRACT_API_KEY }}
+            VITE_ABSTRACT_API_BASE_URL: ${{ secrets.VITE_ABSTRACT_API_BASE_URL }}
+            VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
+            VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
+            VITE_EMAILJS_API_KEY: ${{ secrets.VITE_EMAILJS_API_KEY }}
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
@@ -49,9 +55,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-        env:
-            VITE_ABSTRACT_API_KEY: ${{ secrets.VITE_ABSTRACT_API_KEY }}
-            VITE_ABSTRACT_API_BASE_URL: ${{ secrets.VITE_ABSTRACT_API_BASE_URL }}
-            VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
-            VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
-            VITE_EMAILJS_API_KEY: ${{ secrets.VITE_EMAILJS_API_KEY }}
